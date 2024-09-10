@@ -56,3 +56,10 @@ def plot_bar_without_values(df, x_column, y_column, title, xlabel, ylabel, color
     
     # Mostrar el gráfico
     plt.show()
+
+
+def plot_bar_without_values_2(data, x_col, y_col, title, xlabel, ylabel, ax, color='b'):
+    ax.bar(data[x_col], data[y_col], color=color)
+    ax.set_title(title)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
