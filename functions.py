@@ -24,6 +24,22 @@ def load_and_clean_csv(file_path):
     # Mostrar las primeras filas
     return df
 
+def convert_columns_to_type(df, columns, dtype):
+    """
+    Convierte las columnas especificadas de un DataFrame al tipo de dato indicado.
+    
+    Parámetros:
+    df (pd.DataFrame): El DataFrame que contiene las columnas a convertir.
+    columns (list): Una lista de nombres de las columnas a convertir.
+    dtype (str): El tipo de dato al cual se convertirán las columnas (e.g., 'int64', 'float64').
+
+    Retorna:
+    pd.DataFrame: El DataFrame con las columnas convertidas al tipo especificado.
+    """
+    for column in columns:
+        df[column] = df[column].astype(dtype)
+    return df
+
 def get_top_n_groups(df, group_by_column, count_column, n=5):
     """
     Función para agrupar un DataFrame por una columna, contar las ocurrencias y retornar los N principales grupos.
