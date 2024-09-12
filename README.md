@@ -45,6 +45,9 @@ To prepare the datasets for analysis, the following data cleaning steps were per
    - **Active Population**: Strong interest in physical fitness, despite obesity concerns.
    - **Low Sedentary Hours**: Germans spend fewer hours inactive, showing potential for health tech adoption.
    - **Strong GDP**: As Europe’s largest economy, Germany has high purchasing power for health-related products.
+   - ![image](https://github.com/user-attachments/assets/2b4a34f2-8f42-42d9-87b2-809b99f01183)
+   - ![image](https://github.com/user-attachments/assets/3578298b-bce5-448b-9a49-33c93030e48b)
+   - ![image](https://github.com/user-attachments/assets/ff02a1dc-b201-4303-bcca-542fca506266)
 
 2. **Growing Health Awareness**: Germany’s active yet health-conscious population is likely to adopt the Fitness Ring for tracking progress and improving well-being.
 
